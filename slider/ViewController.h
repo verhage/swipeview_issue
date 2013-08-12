@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SwipeView.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <SwipeViewDataSource, SwipeViewDelegate>
+
+@property (readonly) NSArray *items;
+@property IBOutlet SwipeView *swipeView;
 
 @end

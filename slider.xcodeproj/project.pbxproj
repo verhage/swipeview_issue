@@ -23,6 +23,12 @@
 		5F2EB4F617B93E0000B6D47F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2EB4D117B93E0000B6D47F /* Foundation.framework */; };
 		5F2EB4FE17B93E0000B6D47F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F2EB4FC17B93E0000B6D47F /* InfoPlist.strings */; };
 		5F2EB50117B93E0000B6D47F /* sliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2EB50017B93E0000B6D47F /* sliderTests.m */; };
+		5F2EB50D17B9449200B6D47F /* 1.html in Resources */ = {isa = PBXBuildFile; fileRef = 5F2EB50C17B9449200B6D47F /* 1.html */; };
+		5F9D18B617B968A90088F876 /* 2.html in Resources */ = {isa = PBXBuildFile; fileRef = 5F9D18B317B968A90088F876 /* 2.html */; };
+		5F9D18B717B968A90088F876 /* 3.html in Resources */ = {isa = PBXBuildFile; fileRef = 5F9D18B417B968A90088F876 /* 3.html */; };
+		5F9D18B817B968A90088F876 /* 4.html in Resources */ = {isa = PBXBuildFile; fileRef = 5F9D18B517B968A90088F876 /* 4.html */; };
+		5F9D18BA17B96AA70088F876 /* ShowNewsItem.css in Resources */ = {isa = PBXBuildFile; fileRef = 5F9D18B917B96AA70088F876 /* ShowNewsItem.css */; };
+		7416FCFDE03748EA88323682 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A45A8EE2EAA4264BBD5BC9E /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A45A8EE2EAA4264BBD5BC9E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F2EB4CC17B93E0000B6D47F /* slider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F2EB4CF17B93E0000B6D47F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5F2EB4D117B93E0000B6D47F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +65,12 @@
 		5F2EB4FD17B93E0000B6D47F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5F2EB4FF17B93E0000B6D47F /* sliderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sliderTests.h; sourceTree = "<group>"; };
 		5F2EB50017B93E0000B6D47F /* sliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sliderTests.m; sourceTree = "<group>"; };
+		5F2EB50C17B9449200B6D47F /* 1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1.html; sourceTree = "<group>"; };
+		5F9D18B317B968A90088F876 /* 2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 2.html; sourceTree = "<group>"; };
+		5F9D18B417B968A90088F876 /* 3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 3.html; sourceTree = "<group>"; };
+		5F9D18B517B968A90088F876 /* 4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 4.html; sourceTree = "<group>"; };
+		5F9D18B917B96AA70088F876 /* ShowNewsItem.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ShowNewsItem.css; sourceTree = "<group>"; };
+		6FA96E9A2025483C94856232 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +81,7 @@
 				5F2EB4D017B93E0000B6D47F /* UIKit.framework in Frameworks */,
 				5F2EB4D217B93E0000B6D47F /* Foundation.framework in Frameworks */,
 				5F2EB4D417B93E0000B6D47F /* CoreGraphics.framework in Frameworks */,
+				7416FCFDE03748EA88323682 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +105,7 @@
 				5F2EB4F917B93E0000B6D47F /* sliderTests */,
 				5F2EB4CE17B93E0000B6D47F /* Frameworks */,
 				5F2EB4CD17B93E0000B6D47F /* Products */,
+				6FA96E9A2025483C94856232 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +125,7 @@
 				5F2EB4D117B93E0000B6D47F /* Foundation.framework */,
 				5F2EB4D317B93E0000B6D47F /* CoreGraphics.framework */,
 				5F2EB4F317B93E0000B6D47F /* SenTestingKit.framework */,
+				0A45A8EE2EAA4264BBD5BC9E /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,6 +133,7 @@
 		5F2EB4D517B93E0000B6D47F /* slider */ = {
 			isa = PBXGroup;
 			children = (
+				5F2EB50B17B9448200B6D47F /* html */,
 				5F2EB4DE17B93E0000B6D47F /* AppDelegate.h */,
 				5F2EB4DF17B93E0000B6D47F /* AppDelegate.m */,
 				5F2EB4E717B93E0000B6D47F /* ViewController.h */,
@@ -160,6 +177,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5F2EB50B17B9448200B6D47F /* html */ = {
+			isa = PBXGroup;
+			children = (
+				5F9D18B917B96AA70088F876 /* ShowNewsItem.css */,
+				5F2EB50C17B9449200B6D47F /* 1.html */,
+				5F9D18B317B968A90088F876 /* 2.html */,
+				5F9D18B417B968A90088F876 /* 3.html */,
+				5F9D18B517B968A90088F876 /* 4.html */,
+			);
+			name = html;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F2EB50417B93E0000B6D47F /* Build configuration list for PBXNativeTarget "slider" */;
 			buildPhases = (
+				8926CEEE004449BE92728F8A /* Check Pods Manifest.lock */,
 				5F2EB4C817B93E0000B6D47F /* Sources */,
 				5F2EB4C917B93E0000B6D47F /* Frameworks */,
 				5F2EB4CA17B93E0000B6D47F /* Resources */,
+				9EB213AB57C641519C08696F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +267,11 @@
 				5F2EB4E417B93E0000B6D47F /* Default@2x.png in Resources */,
 				5F2EB4E617B93E0000B6D47F /* Default-568h@2x.png in Resources */,
 				5F2EB4EC17B93E0000B6D47F /* ViewController.xib in Resources */,
+				5F2EB50D17B9449200B6D47F /* 1.html in Resources */,
+				5F9D18B617B968A90088F876 /* 2.html in Resources */,
+				5F9D18B717B968A90088F876 /* 3.html in Resources */,
+				5F9D18B817B968A90088F876 /* 4.html in Resources */,
+				5F9D18BA17B96AA70088F876 /* ShowNewsItem.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +298,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		8926CEEE004449BE92728F8A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9EB213AB57C641519C08696F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -380,10 +446,12 @@
 		};
 		5F2EB50517B93E0000B6D47F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FA96E9A2025483C94856232 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "slider/slider-Prefix.pch";
 				INFOPLIST_FILE = "slider/slider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -391,10 +459,12 @@
 		};
 		5F2EB50617B93E0000B6D47F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FA96E9A2025483C94856232 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "slider/slider-Prefix.pch";
 				INFOPLIST_FILE = "slider/slider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -453,6 +523,7 @@
 				5F2EB50617B93E0000B6D47F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F2EB50717B93E0000B6D47F /* Build configuration list for PBXNativeTarget "sliderTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +532,7 @@
 				5F2EB50917B93E0000B6D47F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
